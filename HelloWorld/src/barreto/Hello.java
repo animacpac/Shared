@@ -1,5 +1,7 @@
 package barreto;
 
+import static java.lang.System.currentTimeMillis;
+
 public class Hello {
 
 
@@ -11,6 +13,6 @@ public class Hello {
         hello.sayHello("valter");
         System.out.println("Hello Valter, my name is John.");
         System.out.println("I'm glad to finally know at least the basics of Git");
-        System.currentTimeMillis();
+        System.out.print(currentTimeMillis());
     }
 }
