@@ -10,6 +10,8 @@ public class Hello {
         Hello  hello = new Hello();
         hello.sayHello("valter");
         System.out.println("Hello Valter, my name is John.");
+        System.out.println("I'm glad to finally know at least the basics of Git");
+
 
     }
 }
